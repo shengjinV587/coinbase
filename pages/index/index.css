@@ -1,0 +1,54 @@
+.content {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.top_box{
+	position: relative;
+}
+.mine{
+	color: #FFFFFF;
+	position: absolute;
+	top: 250upx;
+	font-size: 42upx;
+	left: 35upx;
+}
+.logo {
+	height: 424upx;
+	width: 750upx;
+}
+.middle_box{
+	height: 140upx;
+	width: 680upx;
+	margin-top: -80upx;
+	z-index: 99;
+	border-radius: 16upx;
+	padding:20upx 30upx;
+	box-sizing: border-box;
+}
+
+.middle_box>view:last-child{
+	color: #A7A7A7;
+}
+.list_box{
+	width: 700upx;
+	margin-top: 50upx;
+}
+.list_box>view{
+	height: 120upx;
+	line-height: 120upx;
+	padding-left: 20upx;
+	box-sizing: border-box;
+}
+.list_box view view{
+	margin-left: 30upx;
+}
+
+.list_box view image{
+	width: 60upx;
+	height: 60upx;
+}
+.arrow{
+	color: #EBEBEB;
+}

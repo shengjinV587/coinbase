@@ -1,0 +1,43 @@
+.content {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.top_box{
+	border-radius: 18upx;
+}
+.top_box>view:first-child{
+	margin-left: 80upx;
+}
+.tranfer{
+	background-color: #3068FD;
+	color: #FFFFFF;
+	width: 320upx;
+	height: 80upx;
+	line-height:80upx;
+	border-radius: 20upx;
+}
+.tranfer image{
+	width: 30upx;
+	height: 30upx;
+}
+.collection{
+	background-color: #1AC496;
+	color: #FFFFFF;
+	width: 320upx;
+	height: 80upx;
+	line-height:80upx;
+	border-radius: 20upx;
+}
+.collection image{
+	width: 30upx;
+	height: 30upx;
+}
+.main_box{
+	border-radius: 20upx;
+}
+.main_box>view{
+	padding: 20upx 0;
+	box-sizing: border-box;
+}

@@ -1,0 +1,47 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/bill/bill",
+    "pages/showCode/showCode",
+    "pages/tranfer/tranfer",
+    "pages/orderDetail/orderDetail",
+    "pages/quotes/quotes",
+    "pages/wallet/wallet",
+    "pages/index/index"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#",
+    "selectedColor": "#6596cd",
+    "borderStyle": "white",
+    "backgroundColor": "#FAFAFA",
+    "height": "40",
+    "list": [
+      {
+        "selectedIconPath": "static/b01_1.png",
+        "iconPath": "static/b01.png",
+        "pagePath": "pages/quotes/quotes",
+        "text": "行情"
+      },
+      {
+        "selectedIconPath": "static/b02_1.png",
+        "iconPath": "static/b02.png",
+        "pagePath": "pages/wallet/wallet",
+        "text": "钱包"
+      },
+      {
+        "selectedIconPath": "static/b03_1.png",
+        "iconPath": "static/b03.png",
+        "pagePath": "pages/index/index",
+        "text": "个人"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

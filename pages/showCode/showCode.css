@@ -1,0 +1,41 @@
+.content {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding: 0 40upx;
+	box-sizing: border-box;
+}
+.code_box{
+	background-color: #FFFFFF;
+	padding-top: 60upx;
+}
+.code_box image{
+	width: 350upx;
+	height: 350upx;
+}
+.code_box view{
+	flex-wrap: wrap;
+	word-break:break-all;
+}
+.copy_box{
+	width: 600upx;
+	color: #8D98EE;
+	background-color: #FFFFFF;
+	border: 1upx #8D98EE solid;
+	border-radius: 0;
+	line-height: 90upx;
+	height: 90upx;
+}
+.scan{
+	width: 600upx;
+	color: #FFFFFF;
+	background-color: #8D98EE;
+	border-radius: 0;
+	line-height: 90upx;
+	height: 90upx;
+	margin-bottom: 30upx;
+}
+button:after{
+	border: none;
+}

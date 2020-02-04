@@ -1,0 +1,40 @@
+page{
+	background-color: #FFFFFF;
+}
+.content {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding: 0 40upx;
+	box-sizing: border-box;
+}
+.input_box{
+	padding-bottom: 20upx;
+	box-sizing: border-box;
+}
+.input_box image{
+	width: 40upx;
+	height: 40upx;
+}
+.tranfer_box{
+	background-color: #FBF9FB;
+	color: #616161;
+}
+.tranfer_box text{
+	color: #000000;
+}
+button{
+	position: absolute;
+	bottom: 10upx;
+	width: 700upx;
+	color: #FFFFFF;
+	background-color: #8D98EE;
+	border-radius: 0;
+	line-height: 100upx;
+	height: 100upx;
+	box-shadow:  0 10upx 10upx #E1E1E1;
+}
+button:after{
+	border: none;
+}

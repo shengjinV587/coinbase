@@ -1,0 +1,9 @@
+page{
+	background: #FFFFFF;
+}
+.title{
+	margin-top:120rpx;
+	margin-left: 40rpx;
+	color: #848484;
+}
+
